@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>getElementByClassName</title>
+        <script type="text/javascript">
+        //DoM Manipulations & getelementId method
+
+      function changeStyling()
+      {
+         
+        // var tag=document.getElementsByClassName("p");
+          var element=document.getElementsByClassName("mypara");
+
+                   
+                       for(var x=0;x<element.length;x++)
+
+                       {
+                     
+                        element[x].style.color="red";         
+                               }
+
+                 
+      }
+ </script>
+
+    </head>
+    <body>
+        <p id="p1" class="mypara"> this is a paragraph 1</p>
+       
+        <p> This is a paragraph 2</p>
+
+        <p class="mypara"> This is a paragraph 3</p>
+
+        <p> this is a paragraph 4</p>
+
+        <p class="mypara"> This is a paragraph 5</p>
+
+        <a class="mypara" href="#"> this is a Anchor tag</a>
+        <br>
+
+        <button onclick="changingStyling()">Click Me</button>
+     </body>
+</html>

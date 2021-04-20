@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title> DOM Manipulations</title>
+        <script type="text/javascript">
+        /*DOM manipulations & getelemntbyId method */
+     function fn1()
+     {
+         var select=document.getElementById("selectbox");
+         alert(select.options[select.selectedIndex].value);
+     }
+
+        
+        
+        
+        </script>
+    </head>
+    <body>
+        
+        <select id="selectbox">
+
+            <option value =thangamani>thangamani</option>
+            <option value= swetha>swetha</option>
+            <option value = arunmozhi>arunmozhi</option>
+            <option value =manu>manu</option>
+        </select>
+<button onclick="fn1()">click me</button>
+
+    </body>
+</html>

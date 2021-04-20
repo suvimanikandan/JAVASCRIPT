@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title> Introduction  to Objects</title>
+        <script type="text/javascript">
+        
+        /* objects in JS */
+   // object model
+
+   /*
+        var car = {
+
+               car_brand:"tesla",      // in below prgrm compare  carbrand: colan must and then end with comma not a semicolon is the format of the object prgrm
+               car_model:"model 3",
+               price: 35000,
+               
+
+               teslaAutopilot:function()
+
+               {
+                document.write("<h2> This car has Auto pilot </h2>");
+
+               }
+
+
+
+
+
+        }
+
+document.write("<h2>"+car.car_brand+"</h2>");
+
+
+*/
+
+//normal method
+
+/*
+
+        var car_brand ="telsa";
+        var car_model="model 3";
+        var price= 350000;
+
+        function teslaAutopilot()
+
+        {
+
+            document.write("<h2> This car has Auto pilot </h2>");
+
+        }
+        
+        
+        teslaAutopilot();
+
+
+       */ 
+      
+       
+  // another method of object  program
+       function cars(car_brand,car_model,price)
+       {
+         this.car_brand=car_brand;
+         this.car_model= car_model;
+         this.price ="price";
+         this.teslaAutopilot=function()
+
+         {
+             document.write("<h2> This car has Auto pilot</h2>");
+
+         }
+          }
+
+          var c1=new cars("tesla","Model 3", 35000);
+          var c2=new cars("tesla","model p",450000);
+          cl.teslaAutopilot();
+          document.write("<h2>"+c2.car_model);
+        
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

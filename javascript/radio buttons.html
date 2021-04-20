@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title> DOM Manipulations</title>
+        <script type="text/javascript">
+
+            // DOM manipulations & getelementbyId method 
+
+function fn1()
+{
+   
+    var rd1=document.getElementById("rd1");
+    var rd2=document.getElementById("rd2");
+
+
+    if(rd1.checked==true)
+        alert("the name selected is : "+rd1.value);
+
+        else if(rd2.checked==true)
+        alert("the name selected is : "+rd2.value);
+
+        else
+        alert("no name are selected");
+
+
+}
+         </script>
+
+    </head>
+
+    <body>
+<input id="rd1"name="grp1" type ="radio" value="thangamani">thangamani </input> 
+<br>
+<input  id="rd2" name="grp2" type ="radio" value="swetha">swetha </input>
+<br>
+<button onclick="fn1()" id="btn1">Click me</button>
+
+    </body>
+</html>

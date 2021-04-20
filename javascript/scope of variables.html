@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title> Scope of variables</title>
+
+        <script type="text/javascript">
+
+         /* In Js we have two type of scopes -Global & Local
+        depending upon where you create your variables*/
+
+     var  b=6; // outside the function variable declare called global variables
+
+        function myfunction()
+        {
+            var a =5;   //local variable   --> inside the function variable declaare called local variable
+            document.write("<h2>"+a+" </h2>");
+            
+            document.write("<h2>"+b+" </h2>");
+        }
+       
+        myfunction();
+
+
+        </script>
+       
+
+    </head>
+
+
+    <body>
+
+    </body>
+
+</html>

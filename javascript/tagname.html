@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title> DOM Manipulations</title>
+        <script type="text/javascript">
+        
+            //DoM Manipulations & getElementbyTagName method
+
+            function changeStyling()
+            {
+              var para =  document.getElementsByTagName("p");
+              para[0].style.fontSize= 25;
+              para[1].style.color= " green";
+              para[2].style.fontWeight= "bold";
+              para[3].style.fontStyle= "italic";
+            }
+
+                        
+  </script>
+    </head>
+    <body>
+        
+        <p> This is a paragraph 1</p>
+        <p> This is paragraph 2</p>
+        <p> this is paragraph 3 </p>
+        <p> This is paragraph 4</p>
+        <p> This is paragraph 5</p>
+
+
+
+        <br>
+        <button onclick="changingStyling()">Click Me </button>
+    </body>
+</html>
